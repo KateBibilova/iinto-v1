@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iinto</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@400;500;600;700&family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="card-content">
+            <!-- Логоти и иллюстрация слева --> 
+            <div class="graphics">
+                <img src="img/bg.jpeg" style="height: 670px;" alt="Illustration">
+                <img src="img/logo.svg" style="width: 150px;" alt="Iinto-logo" class="inner">
+            </div>
+            <!-- Форма создания аккаунта (правая часть макета)-->
+
+            <!-- Кнопки Facebook-a и LinkedIn-а -->
+            <div class="registration-form">
+                <h1>Get iinto it today</h1>
+                <p>There is no charge or obligation upon registration.</p>
+                <div class="register-btns">
+                    <button class="facebook-btn" onclick="window.location.href = 'https://facebook.com/';"><img class="facebook-img" src="img/facebook.svg"  width="12" height="12" alt="Facebook-logo">Register with Facebook</button>
+                    <button class="linkedin-btn" onclick="window.location.href = 'https://linkedin.com/';"><img class="linkedin-img" src="img/linkedin.svg"  width="12" height="12" alt="Linkedin-logo">Register with LinkedIn</button>
+                </div>
+                <!-- Декоративные линии и "OR" -->
+                <div class="lines">
+                    <hr noshade size="1px" color="#e5e5e5">
+                    <span class="element-or">OR</span>
+                    <hr noshade size="1px" color="#e5e5e5" id="second-line">
+                </div>
+
+                <!-- Форма ввода email-a и телефона -->
+                <form class="email-phone-form">
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" placeholder=" your_mail@test.com">
+                    </div>
+                    <div class="input">
+                        <label for="phone" id="phonelabel">Phone</label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                </form>
+                <h2>What type of investor are you?</h2>
+                <p class="small-text">Select the type of investor you are below</p>
+
+                <!-- Радио-кнопки -->
+                <div class="radio-buttons">
+                    <div><input type="radio" name="investorType" value="individual" id="individual" checked> Individual <span class="info-sign">&#9432;</span></div>
+                    <div><input type="radio" name="investorType" value="business" id="business">Business <span class="info-sign">&#9432;</span></div>
+                    <div><input type="radio" name="investorType" value="ira" id="ira"> IRA <span class="info-sign">&#9432;</span></div>
+                    <div><input type="radio" name="investorType" value="trust" id="trust"> Trust <span class="info-sign">&#9432;</span></div>
+                </div>
+                <!-- Checkebox и кнопка Create -->
+                <div class="checkbox">
+                    <input type="checkbox" name="agreement" id="agreementField">
+                    <label for="agreementField"> I agree to the terms and receiving notifications from iinto</label>
+                    <a href="#" class="link">View full terms.</a>
+                </div>
+                <div>
+                    <button type="button" class="btn-create">Create account</button>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

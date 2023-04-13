@@ -1,0 +1,247 @@
+body {
+    background-color: #EFF6FF;
+}
+ 
+
+.card-content {
+        display: flex;
+        height: 670px;
+        width: 990px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        background-color: white;
+        box-shadow: 0px 5px 20px rgba(27, 108, 114, 0.25);
+}
+ 
+/* Графика на левой стороне (иллюстрация/логотип) */
+.graphics {
+    position: relative;
+    
+}
+.inner {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+.logo {
+    padding-top: 40px;
+    left: 40px;
+    width: 40px;
+    height: auto;
+}
+
+/* Форма создания аккаунта (правая часть макета) */
+.registration-form {
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Параметры текста */
+h1 {
+    font-family: "Barlow", Sans-Serif; 
+    font-weight: 400;
+    color: #2A4A5C;
+    font-size: 22px;
+    margin-top: 80px;
+}
+
+p {
+    font-family: "Barlow", Sans-Serif; 
+    font-weight: 300;
+    color: #2A4A5C;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: "Barlow"; 
+    font-weight: 400;
+    color: #2A4A5C;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.small-text {
+    font-family: "Barlow";
+    font-weight: 300;
+    color: #2A4A5C;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.text-content {
+    left: 670px;
+}
+
+/* Кнопки Facebook-a и LinkedIn-а */
+.register-btns {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.facebook-btn { 
+  height: 30px;
+  width: 180px;
+  background-color:#255b9b;
+  border:none;
+  color:#ffffff;
+  font-size:10px;
+  font-weight: 200;
+  padding-right: 20px;
+}
+
+.linkedin-btn { 
+    height: 30px;
+    width: 180px;
+    background-color:#0076b6;
+    border:none;
+    color:#ffffff;
+    font-size:10px;
+    font-weight: 200;
+    padding-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .facebook-img {
+    float: left;
+    margin-left: 8px;
+    text-align:left;
+}
+
+  .linkedin-img {
+    float: left;
+    margin-left: 8px;
+    text-align:left;
+}
+
+/* Декоративные линии и "OR" */
+.lines {
+    margin-top: 30px;
+    align-content: center;
+    display: flex;
+    margin-right: 85px;
+   }
+
+.element-or {
+    color: #2A4A5C;
+    font-size: 10px;
+    font-family: "Barlow"; 
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+hr {
+    width: 80px;
+    margin-right: 5px; 
+}
+
+#second-line {
+    margin-left: 5px;
+    left: 0px;
+}
+
+
+/* Форма ввода email-a и телефона */
+.email-phone-form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-family: "Barlow";
+    font-weight: 400;
+    font-size: 14px;
+    height: 35px;
+    width: 171px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+#phone {
+    margin-left: 20px;
+}
+
+form label {
+    right: 20px;
+    font-family: "Barlow";
+    font-weight: 300;
+    font-size: 14px;
+    color: #2A4A5C;
+    margin-left: 5px;
+}
+
+#phonelabel {
+    margin-left: 25px;
+}
+
+
+/* Радио-кнопки */
+.radio-buttons {
+    font-family: "Barlow"; 
+    font-weight: 400;
+    color: #2A4A5C;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-sign {
+    color: lightgray;
+    margin-left: 4px;
+    font-size: x-small;
+}
+
+.info-sign:hover {
+	color:#0688fa;
+    cursor: pointer;
+}
+
+/* Checkebox и кнопка Create */
+.checkbox {
+    font-family: "Barlow"; 
+    font-weight: 300;
+    color: #a4a4a4;
+    font-size: 11px;
+    margin-top: 60px;
+}
+
+.link {
+    color: #90c6ff;
+    font-size: 11px;
+}
+
+.link a.active {
+    color: #2065ae;
+  }
+
+.btn-create {
+    height: 30px;
+    width: 180px;
+	background-color:#3698fb;
+	border-radius:2px;
+    border:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Barlow";
+	font-size: 12px;
+    font-weight: 500;
+	padding: auto;
+	text-decoration:none;
+    margin-top: 30px;
+}
+
+.btn-create:hover {
+	background-color:#0688fa;
+}
+
+.btn-create:active {
+	position:relative;
+	top:1px;
+}
